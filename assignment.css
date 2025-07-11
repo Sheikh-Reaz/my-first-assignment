@@ -26,6 +26,7 @@ header{
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 35px;
+    color: #252432;
     
 }
 .banner-txt{
@@ -54,8 +55,35 @@ nav{
 
 .btn-common{
     background-color: rgba(78, 71, 255, 1);
+    font-weight: bold;
     border: none;
     border-radius: 10px;
     color: white;
     padding: 12px 36px;
+}
+
+
+
+.body-first{
+    display: flex;
+    max-width: 1140px;
+    margin:  auto;
+    margin-top: 116px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-section{
+    width: 48%;
+}
+.bd-header{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+}
+.bd-text{
+    font-size: 24px;
+    padding: 23px 20px 23px 0px;
+    colour:rgba(37, 36, 50, 0.5)
+    
 }
